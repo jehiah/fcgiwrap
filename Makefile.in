@@ -20,7 +20,7 @@ clean:
 #>+ 21
 distclean: clean
 	-rm -rf config.log config.status autom4te.cache
-	-rm -f configure Makefile config.h config.h.in
+	-rm -f configure Makefile
 
 #>+ 21
 uninstall:
