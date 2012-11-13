@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.61)
+AC_PREREQ(2.59)
 AC_INIT(fcgiwrap, 1.0, root@localdomain.pl)
 AM_CFLAGS="-std=gnu99 -Wall -Wextra -Werror -pedantic"
 if test x"$CFLAGS" = x""; then
